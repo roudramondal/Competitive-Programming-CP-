@@ -17,7 +17,9 @@ int main() {
             (isW(d) && isW(e) && isW(f))) 
         {
             cout << "YES" << endl;
-        } else {
+        }
+        // else condition check
+         else {
             cout << "NO" << endl;
         }
     }
