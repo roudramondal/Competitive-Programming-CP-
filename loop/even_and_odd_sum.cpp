@@ -13,6 +13,7 @@ int main()
     // for even number
     for (int i = 2; i <= n; i += 2)
     {
+        // sum
         cout<<i<<endl;
         sum += i;
 
