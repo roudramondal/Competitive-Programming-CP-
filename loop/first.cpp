@@ -4,6 +4,7 @@ int main(){
     int count=0;
     while (count<5)
     {
+        // print roudra 5 times
         cout<<"Roudra"<<endl;
         count++;
     }
