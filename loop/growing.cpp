@@ -7,6 +7,7 @@ int main(){
         // still have something missing
         int sub=abs(z-x);
         int value=sub/y;
+        //output the value
         cout<<value<<endl;
     }
     return 0;
