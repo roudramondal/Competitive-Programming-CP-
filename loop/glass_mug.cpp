@@ -13,6 +13,7 @@ int main (){
         else if (y==0){
             y=m;
         }
+        //  else condition check if we can fill the glass mug completely
         else {
             int empty=g-x;
             if (empty>=y){
