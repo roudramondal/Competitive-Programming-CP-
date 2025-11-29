@@ -4,23 +4,27 @@ int main()
 {
     int n;
     cin >> n;
-    int flag = 1;// if here flag = 0 
-    for (int i = 2; i < n; i++)
+    // print  1 to n prime or not
+    for (int i = 2; i <= n; i++)
     {
-        if (n % i == 0)
+        int flag = 1; // if here flag = 0
+        for (int j = 2; j < i; j++)
         {
-            flag = 0;// flag becomes 1 
-            break;
+            if (i % j == 0)
+            {
+                flag = 0; // flag becomes 1
+                break;
+            }
         }
-    }
-    // then we have to use condition to check here like "!flag"
-    if (flag)
-    {
-        cout << "Prime" << endl;
-    }
-    else
-    {
-        cout << "Not Prime" << endl;
+        // then we have to use condition to check here like "!flag"
+        if (flag)
+        {
+            cout << "Prime = "<<i << endl;
+        }
+        else
+        {
+            cout << "Not Prime = "<<i<< endl;
+        }
     }
     return 0;
 }
