@@ -10,6 +10,7 @@ int main(){
         cin>>l>>r;
         for (int i = l; i <= r; i++)
         {
+           // add two value
            sum+=i;
         }
         cout<<sum<<endl;
