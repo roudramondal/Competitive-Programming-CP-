@@ -13,6 +13,7 @@ int main(){
            // add two value
            sum+=i;
         }
+        // print sum 
         cout<<sum<<endl;
         
     }
