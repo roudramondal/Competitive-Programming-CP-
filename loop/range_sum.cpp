@@ -1,21 +1,19 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-    int t;
-    cin>>t;
-    while (t--)
-    {
-        int sum=0;
-        int l,r;
-        cin>>l>>r;
-        for (int i = l; i <= r; i++)
-        {
-           // add two value
-           sum+=i;
-        }
-        // print sum 
-        cout<<sum<<endl;
-        
+
+int main() {
+    long long t;
+    cin >> t;
+    while (t--) {
+        long long l, r;
+        cin >> l >> r;
+        long long n = r - l + 1;
+        long long sum;
+        if (n % 2 == 0)
+            sum = (n / 2) * (l + r);
+        else
+            sum = n * ((l + r) / 2);
+        cout << sum << "\n";
     }
     return 0;
 }
