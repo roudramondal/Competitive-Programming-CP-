@@ -13,6 +13,7 @@ int main() {
             sum = (n / 2) * (l + r);
         else
             sum = n * ((l + r) / 2);
+            //  print sum
         cout << sum << "\n";
     }
     return 0;
