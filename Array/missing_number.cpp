@@ -14,6 +14,7 @@ int main()
     }
 
     int ans;
+    // find the missing number
     for (int i = 1; i <= n; i++)
     {
         if (freq[i] == 0)
