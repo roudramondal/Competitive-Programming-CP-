@@ -10,5 +10,6 @@ int main (){
             sum+=i;
         }
     }
+    // output the sum of even idexes
     cout<<sum<<endl;
 }
