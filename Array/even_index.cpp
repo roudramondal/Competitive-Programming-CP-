@@ -12,4 +12,5 @@ int main (){
     }
     // output 
     cout<<sum<<endl;
+    return 0;
 }
