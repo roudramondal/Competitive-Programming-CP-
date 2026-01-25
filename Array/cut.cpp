@@ -17,6 +17,7 @@ int main()
     }
     for (int i = 0; i <= n - k - 1; i++)
     {
+        // output array
         cout << arr[i] << " ";
     }
     return 0;
