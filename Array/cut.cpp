@@ -6,6 +6,7 @@ int main()
     // taking input
     cin >> n >> k;
     int arr[n];
+    // taking input
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
