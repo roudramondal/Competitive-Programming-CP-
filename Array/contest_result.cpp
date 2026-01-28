@@ -18,6 +18,7 @@ int main()
         cin >> j;
         answer += arr[j - 1];
     }
+    // final output
     cout << answer << endl;
     return 0;
 }
