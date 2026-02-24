@@ -7,16 +7,22 @@ int main()
     while (t--)
     {
         int n;
-        cin>>n;
+        cin >> n;
         long long arr[n];
-        for (int i = 0;i<n;i++){
-            cin>>arr[i];
+        for (int i = 0; i < n; i++)
+        {
+            cin >> arr[i];
         }
+        int count = 0;
 
-        for (int i =0 ;i<n;i++){
-            cout<<arr[i]<<" ";
+        for (int i = 0; i < n; i++)
+        {
+            if (arr[i] % 2 != 0)
+            {
+                count++;
+            }
         }
-        cout<<endl;
+        cout << count << endl;
     }
-    
+    return 0;
 }
