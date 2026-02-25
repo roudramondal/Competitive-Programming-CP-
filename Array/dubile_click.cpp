@@ -20,6 +20,7 @@ int main()
             break;
         }
     }
+    // call
     cout << ans << endl;
 
     return 0;
