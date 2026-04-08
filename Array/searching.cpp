@@ -5,13 +5,15 @@ int main()
     int n;
     cin >> n;
     long long arr[n];
-    long long x;
-    cin >> x;
+    
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
+    long long x;
+    cin >> x;
     bool found = false;
+    
     for (int i = 0; i < n; i++)
     {
         if (arr[i] == x)
@@ -21,8 +23,9 @@ int main()
            break;
         }
     }
-    if(!found){
-        cout<< -1 <<endl;
+    if (!found)
+    {
+        cout << -1 << endl;
     }
     return 0;
 }
