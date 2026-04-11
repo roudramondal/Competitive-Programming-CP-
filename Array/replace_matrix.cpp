@@ -15,11 +15,13 @@ int main()
     int max_index = 0;
     for (int i = 0; i < n; i++)
     {
+        // min value 
         if (arr[i] < ans)
         {
             ans = arr[i];
             min_index = i;
         }
+        // max value 
         else if (arr[i] > ans2)
         {
             ans2 = arr[i];
@@ -27,7 +29,9 @@ int main()
         }
         
     }
+    // swap th min and max value
     swap(arr[min_index],arr[max_index]);
+    // print the array after swap
     for (int i = 0; i < n; i++)
     {
         
