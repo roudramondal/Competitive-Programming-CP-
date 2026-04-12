@@ -10,16 +10,28 @@ int main()
         cin >> arr[i];
     }
     int ans = arr[0];
-    int index = 0;
     for (int i = 0; i < n; i++)
     {
         if (arr[i] < ans)
         {
             ans = arr[i];
-            index = i;
-            continue;
         }
     }
-    cout << ans << " " << index + 1 << endl;
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] == ans)
+        {
+            count++;
+        }
+    }
+    if (count % 2 != 0)
+    {
+        cout << "Lucky" << endl;
+    }
+    else
+    {
+        cout << "Unlucky" << endl;
+    }
     return 0;
 }
