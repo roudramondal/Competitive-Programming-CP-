@@ -30,7 +30,7 @@ int main()
             cout << "NO" << endl;
         }
 
-        // cout << endl;
+        
     }
     return 0;
 }
