@@ -16,6 +16,7 @@ int main()
     {
         arr[i] = s[i] - s[i - 1];
     }
+    // print for array
     for (int i = 1; i <= n; i++)
     {
         cout << arr[i] << " ";
