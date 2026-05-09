@@ -11,6 +11,7 @@ int main()
     }
 
     int arr[n + 1];
+    // store value
     arr[1] = s[1];
     for (int i = 2; i <= n; i++)
     {
