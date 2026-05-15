@@ -23,6 +23,7 @@ int main()
 
             sum += arr[i][j];
         }
+        // sum of column
         cout << sum << endl;
     }
     return 0;
