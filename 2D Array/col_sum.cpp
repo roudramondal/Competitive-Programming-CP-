@@ -8,6 +8,7 @@ int main()
     int arr[n][m];
     for (int i = 0; i < n; i++)
     {
+        // taking input
         for (int j = 0; j < m; j++)
         {
             cin >> arr[i][j];
