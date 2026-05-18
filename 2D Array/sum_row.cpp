@@ -20,6 +20,7 @@ int main()
         {
             sum += arr[i][j];
         }
+        // sum of row
         cout <<"row sum "<<i<<" = " << sum << endl;
     }
     return 0;
