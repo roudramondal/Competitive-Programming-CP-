@@ -9,6 +9,7 @@ int main()
     {
         for (int j = 0; j < m; j++)
         {
+            // taking input
             cin >> arr[i][j];
         }
     }
