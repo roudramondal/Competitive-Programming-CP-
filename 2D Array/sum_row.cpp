@@ -19,6 +19,7 @@ int main()
         int sum = 0;
         for (int j = 0; j < m; j++)
         {
+            // sum of value
             sum += arr[i][j];
         }
         // sum of row
