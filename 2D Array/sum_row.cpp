@@ -25,5 +25,6 @@ int main()
         // sum of row
         cout <<"row sum "<<i<<" = " << sum << endl;
     }
+    // terminate the program 
     return 0;
 }
