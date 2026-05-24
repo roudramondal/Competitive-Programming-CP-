@@ -18,6 +18,7 @@ int main()
     // Sum of all column
     for (int j = 0; j < m; j++)
     {
+        // sum of column
         int sum = 0;
         for (int i = 0; i < n; i++)
         {
