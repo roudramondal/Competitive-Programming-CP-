@@ -29,5 +29,6 @@ int main()
         // sum of column
         cout << sum << endl;
     }
+    // terminate program 
     return 0;
 }
