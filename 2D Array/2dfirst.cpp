@@ -10,5 +10,6 @@ int main()
      cin>> arr[1][3];
     //  output 
     cout<<arr[1][3]<<endl;
+    // terminate program
     return 0;
 }
