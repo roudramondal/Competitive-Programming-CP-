@@ -24,6 +24,7 @@ int main()
         for (int i = 0; i < n; i++)
         {
 
+            // sum of column 
             sum += arr[i][j];
         }
         // sum of column
