@@ -6,6 +6,7 @@ int main()
     int n, m;
     cin >> n >> m;
     int arr[n][m];
+    // taking input in 2d array 
     for (int i = 0; i < n; i++)
     {
         // taking input
