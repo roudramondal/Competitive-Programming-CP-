@@ -4,6 +4,7 @@ int main()
 {
     // taking input 
     int n, m;
+    // taking input 
     cin >> n >> m;
     int arr[n][m];
     // taking input in 2d array 
