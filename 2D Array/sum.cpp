@@ -21,6 +21,7 @@ int main()
             sum += arr[i][j];
         }
     }
+    // output show
     cout << sum << endl;
     return 0;
 }
