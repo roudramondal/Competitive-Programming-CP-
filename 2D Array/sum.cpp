@@ -13,6 +13,7 @@ int main()
         }
     }
 
+    // store value in sum 
     int sum = 0;
     for (int i = 0; i < n; i++)
     {
