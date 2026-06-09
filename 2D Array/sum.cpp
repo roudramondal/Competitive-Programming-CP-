@@ -29,4 +29,3 @@ int main()
     // output show
     cout << sum << endl;
     return 0;
-}
