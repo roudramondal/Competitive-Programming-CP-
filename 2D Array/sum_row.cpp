@@ -18,6 +18,7 @@ int main()
     // sum all the array value
     for (int i = 0; i < n; i++)
     {
+        // store value in sum
         int sum = 0;
         for (int j = 0; j < m; j++)
         {
