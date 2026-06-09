@@ -10,6 +10,7 @@ int main()
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
+        // taking input in 2d array
         {
             cin >> arr[i][j];
         }
