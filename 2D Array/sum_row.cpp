@@ -15,6 +15,7 @@ int main()
         }
     }
 
+    // sum all the array value
     for (int i = 0; i < n; i++)
     {
         int sum = 0;
