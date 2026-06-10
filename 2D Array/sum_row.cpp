@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // taking input of row and column
     int n, m;
     cin >> n >> m;
     int arr[n][m];
