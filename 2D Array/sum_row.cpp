@@ -21,6 +21,7 @@ int main()
     {
         // store value in sum
         int sum = 0;
+        // iterate the column value 
         for (int j = 0; j < m; j++)
         {
             // sum of value
