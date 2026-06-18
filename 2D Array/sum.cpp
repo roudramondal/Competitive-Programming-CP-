@@ -20,6 +20,7 @@ int main()
     int sum = 0;
     for (int i = 0; i < n; i++)
     {
+        // nested loop for column
         for (int j = 0; j < m; j++)
         {
             // add array 
