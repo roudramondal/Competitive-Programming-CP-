@@ -29,4 +29,5 @@ int main()
     }
     // output show
     cout << sum << endl;
+    // terminate 
     return 0;
