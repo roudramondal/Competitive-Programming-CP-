@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // taking array elements as input 
     int n;
     cin >> n;
     int arr[n];
