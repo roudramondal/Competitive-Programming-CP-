@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    // insert value in array 
     int arr[3];
     arr[0]=1;
     arr[1]=4;
