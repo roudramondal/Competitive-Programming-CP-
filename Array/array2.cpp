@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // input array size 
     int n;
     cin >> n;
     int arr[n];
