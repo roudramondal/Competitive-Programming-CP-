@@ -5,6 +5,7 @@ int main()
     // input array size 
     int n;
     cin >> n;
+    // array size 
     int arr[n];
     // for input
     for (int i = 0; i < n; i++)
