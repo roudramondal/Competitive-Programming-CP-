@@ -12,6 +12,7 @@ int main()
 
     for (int i = 0; i < q; i++)
     {
+        // input x value
         int x;
         cin >> x;
         bool found = false;
