@@ -15,6 +15,7 @@ int main()
         // input x value
         int x;
         cin >> x;
+        // veriable to check if x is found in the array
         bool found = false;
         for (int j = 0; j < n; j++)
         {
