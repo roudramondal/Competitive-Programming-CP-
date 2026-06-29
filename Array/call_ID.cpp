@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // input taking 
     int n;
     cin >> n;
     int arr[n + 1];
