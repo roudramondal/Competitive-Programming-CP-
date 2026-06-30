@@ -10,6 +10,7 @@ int main()
     {
         cin >> arr[i];
     }
+    // frequency array 
     int freq[n + 1];
     for (int i = 1; i <= n; i++)
     {
