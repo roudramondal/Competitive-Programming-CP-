@@ -16,7 +16,7 @@ int main()
     {
         freq[i] = 0;
     }
-
+//  frequency 
     for (int i = 1; i <= n; i++)
     {
         if (freq[i] == 0)
