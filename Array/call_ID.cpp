@@ -44,6 +44,7 @@ int main()
             cout << i << " ";
         }
     }
+    // output 
     cout << endl;
     return 0;
 }
