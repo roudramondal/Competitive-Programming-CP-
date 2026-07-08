@@ -20,6 +20,7 @@ int main()
         {
             sum += arr[i];
         }
+        // square value store in ans 
 
         long long ans = sqrt(sum);
         if (ans * ans == sum)
