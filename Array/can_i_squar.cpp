@@ -23,6 +23,7 @@ int main()
         // square value store in ans 
 
         long long ans = sqrt(sum);
+        // condition check here 
         if (ans * ans == sum)
         {
             cout << "YES" << endl;
