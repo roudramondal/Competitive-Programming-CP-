@@ -28,6 +28,7 @@ int main()
         {
             cout << "YES" << endl;
         }
+        // else condition
         else
         {
             cout << "NO" << endl;
