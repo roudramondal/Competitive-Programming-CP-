@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // taking input from user 
     int n, k;
     cin >> n >> k;
     long long arr[n];
