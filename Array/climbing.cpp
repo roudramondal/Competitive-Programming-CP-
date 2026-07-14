@@ -24,5 +24,6 @@ int main()
     }
     //printing the answer
     cout << ans << endl;
+    // terminate program
     return 0;
 }
