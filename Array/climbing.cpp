@@ -13,6 +13,7 @@ int main()
     }
     // output part
     int ans = arr[0];
+    // array check 
     for (int i = 1; i < n; i++)
     {
         if (arr[i] > arr[i-1])
