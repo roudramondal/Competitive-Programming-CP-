@@ -25,6 +25,7 @@ int main()
         {
             if (arr[i][j] == '#')
             {
+                //  count 
                 count++;
             }
         }
