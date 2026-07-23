@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    //  taking two value 
     int h, w;
     cin >> h >> w;
 
